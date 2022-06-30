@@ -1,7 +1,6 @@
 package hello.itemservice.domain.item;
 
 import lombok.Data;
-
 import java.util.List;
 
 @Data
@@ -18,7 +17,7 @@ public class Item {
 
     private ItemType itemType; // 상품종류
 
-    private DeliveryCode deliveryCode; // 배송방식
+    private String deliveryCode; // 배송방식
 
     public Item() {
     }
